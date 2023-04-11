@@ -57,4 +57,5 @@ To deploy the notion automation
 ## Appendix
 
 [Inspiration for TODO List layout for Notion](https://www.youtube.com/watch?v=5Vl2mP0Ita4&t=392s)
+
 [Notion API documentation](https://developers.notion.com/)

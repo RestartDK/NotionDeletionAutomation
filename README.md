@@ -11,9 +11,15 @@ You have a TODO List. You have checked a task to be done. You are so productive 
 ![Notiontable](https://user-images.githubusercontent.com/58006998/231240947-54c8af1c-2949-4e4b-b7ff-55f2742d3ca3.png)
 
 
+## Prerequisites
+
+- A table with a column named "Done" and checkbox property
+- Python installed in the computer
+
+
 ## Installation
 
-Make a copy of the project with git clone at your preferred directory.
+Make a copy of the project with git clone in your preferred directory.
 
 ```bash
   git clone https://github.com/RestartDK/NotionDeletionAutomation.git
@@ -26,12 +32,7 @@ First open the `todo_done_auto.py` file in a text editor and change the input yo
 
 ![python1](https://user-images.githubusercontent.com/58006998/231241002-4d94d157-8ab9-4ddc-8e37-3da11808b3f9.png)
 
-For more information on making an integration with Notion and how to get your Database ID : (https://developers.notion.com/docs/create-a-notion-integration)
-
-
-## Table Customisation (OPTIONAL)
-
-If 
+For more information on making an integration with Notion and how to get your Database ID read through the [Notion Integration documentation](https://developers.notion.com/docs/create-a-notion-integration).
 
 
 ## Set-Up Launchd
@@ -59,3 +60,5 @@ To deploy the notion automation
 [Inspiration for TODO List layout for Notion](https://www.youtube.com/watch?v=5Vl2mP0Ita4&t=392s)
 
 [Notion API documentation](https://developers.notion.com/)
+
+[Notion Integration documentation](https://developers.notion.com/docs/create-a-notion-integration)

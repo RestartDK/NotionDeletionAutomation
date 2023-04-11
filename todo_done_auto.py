@@ -1,6 +1,5 @@
 # todo_done_auto.py
 # This program will automatically clear the completed tasks from the todo list in
-# Get Shit Done page
 import requests
 from datetime import datetime, timezone
 import json

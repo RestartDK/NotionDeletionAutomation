@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+
+    <key>Label</key>
+    <string>com.automation_scripts.daemon.plist</string>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+	<key>Weekday</key>
+	<integer>7</integer>
+	<key>Hour</key>
+	<integer>12</integer>
+	<key>Minute</key>
+	<integer>25</integer>
+    </dict>
+
+    <key>StandardErrorPath</key>
+    <string>/PATH TO SCRIPT FOLDER/stderr.log</string>
+
+    <key>StandardOutPath</key>
+    <string>/PATH TO SCRIPT FOLDER/stdout.log</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+      <key>PATH</key>
+      <string><![CDATA[/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin]]></string>
+    </dict>
+
+    <key>WorkingDirectory</key>
+    <string>/PATH TO SCRIPT FOLDER</string>
+
+    <key>ProgramArguments</key>
+    <array>
+      <string>/PATH TO PYTHON INTERPRETER HERE</string>
+      <string>todo_done_auto.py</string>
+    </array>
+
+  </dict>
+</plist>

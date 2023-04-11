@@ -6,7 +6,7 @@ A python script automated with launchd that will automatically delete items that
 
 ## Introduction
 
-You have a TODO List. You have checked a task to be done. You are so productive so your finished tasks pile up at the end of the week. It takes up your time to go and manually delete all the tasks on your list. To gain time, I made python automate it for you weekly. The list I made was inspired from a youtuber I have listed in the [Appendix][Appendix]. 
+You have a TODO List. You have checked a task to be done. You are so productive so your finished tasks pile up at the end of the week. It takes up your time to go and manually delete all the tasks on your list. To gain time, I made python automate it for you weekly. The list I made was inspired from a youtuber I have listed in the [Appendix](##Appendix). 
 
 ![Notiontable](https://user-images.githubusercontent.com/58006998/231240947-54c8af1c-2949-4e4b-b7ff-55f2742d3ca3.png)
 
